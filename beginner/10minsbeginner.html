@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,38 +9,83 @@
     <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <!--The navagation bar begins here-->
+    <div class="main-content">
     <h1>Let's Learn!</h1>
 
     <nav>
-        <div><a href = "../index.html">Home</a></div>
-        <div><a href = "../navigation/about.html">About</a></div>
-        <div><a href = "../navigation/contact.html">Contact</a></div>
-        <div><a href = "../navigation/login.html">Login</a></div>
+        <div><a href="../index.html">Home</a></div>
+        <div><a href="../navigation/about.html">About</a></div>
+        <div><a href="../navigation/contact.html">Contact</a></div>
+        <div><a href="../navigation/login.html">Login</a></div>
         <div><i class="fas fa-search"></i></div>
-    </nav>    
-    <!--The navagation bar ends here--> 
+    </nav>
+    <!--The navagation bar ends here-->
+   
+        <!-- Syntax's section starts here-->
+        <div class="syntax-add">
+            <input type="button" class="" id="syntax-add" value="Syntax">
 
-    <!-- Syntax's section starts here-->
-    <div class = "syntax-add">
-        <input type="button" class="" id="syntax-add" value="Syntax">
-        
-        <p class = "emptySyntax"></p>
-    </div>
+            <p class="emptySyntax"></p>
+        </div>
 
-    <div class = "variables-add">
-        <input type="button" class="" id="variables-add" value="variables">
+        <div class="variables-add">
+            <input type="button" class="" id="variables-add" value="Variables">
 
-        <p class = "emptyVariables"></p>
+            <p class="emptyVariables"></p>
 
-    <div class = "comparison-add">
-        <input type="button" class="" id="comparison-add" value="comparison">
-    
-        <p class = ""></p>
+            <div class="dataTypes-add">
+                <input type="button" class="" id="datTypes-add" value="Data Types">
 
-    </div>
-    <!-- testingdafdsfadf-->
-    <script src = "../script.js"></script>   
+                <p class="emptyDataTypes">
+                    <div>What is Data Types and how do we incorporate into coding?
+                    Data Types are important since it allow programmers to store different types of data. You can have string, boolean, numbers, undefined, null, object, array, and
+                    function data types.  
+                    Let’s tackle on how to write each data types using a variable to store a data...
+                    The <em>string</em> data type can use either single or double quotes.
+                   <br>
+                   <pre>let grocery = “avocado”;<br>let grocery = 'avocado'; </pre>
+                   </div>
+                    <li>The <em>boolean</em> data type can have two values of either true or false.
+                        <li>let fruit = orange; </li>
+                        <li>let vegetable = iceCream; </li>
+                        <li>fruit = true; </li>
+                        <li>vegetable = false; </li>
+                        <li>The <em> numbers</em> data type can be written as with or without decimals.
+                        </li>
+                        <li>let x = 5; </li>
+                        <li>let y = 5.00; </li>
+                        <li>The <em>undefined </em> data type is when a variable has been declared, but
+                            has not been assigned a value.</li>
+                        <li> let x; </li>
+                        <li> let y = "fruits"; </li>
+                        <li> console.log(x); The output will be <em>undefined </em> since there is no value
+                            assigned to x. </li>
+                        <li> console.log(y); The output will be <em> fruits</em> since there is value assigned to y as
+                            fruits.</li>
+                        <li> The <em>null</em> is when value does not exist. In Javascript, null is an
+                            object.</li>
+                        <li> let x = null; </li>
+                        <li> console.log(x); The output will be <em>null</em> since it is assigned as null.</li>
+                        <li> <em>Array</em> used for storing multiple values in single variable using
+                            square brackets and separated by using commas.</li>
+                        <li>let fruits = ['grapes', 'oranges', 'apples'];
+                        <li> <em>Objects</em> allows to store collections of data by using curly brackets. An object
+                            contains properties which are defined as key value pairs.</li>
+                        <li> let fruits = {
+                            name = "apples";
+                            cost = 1;
+                            }
+                            In this example, an object represents fruits. Name and cost represent keys. The
+                            apples and 1 represent values. </li>
+                </p>
+            </div>
+
+        </div>
+
+        <script src="../script.js"></script>
 </body>
+
 </html>
