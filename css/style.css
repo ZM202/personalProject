@@ -21,9 +21,9 @@ h3{
 	color: #000000;
 	font-size: 25px;
 }
-h4{
+/* h4{
     margin: 255px 0px -50px 0px;
-}
+} */
 
 h6{
 	font-size: 25px;
@@ -58,13 +58,17 @@ nav>div>a:hover {
 } 
 /* nav starts here */
 .learningButtons{
-	display: flex;
 	justify-content: center;
 	background-color: #CC99ff;
     color: 	#0000FF;
 	font-size: 3em;   
 	height: 90px;
 	outline: none;
+}
+
+.begandint{
+	display: flex;
+	justify-content: space-between;
 }
 
 /* javarscript button starts here */
@@ -77,15 +81,13 @@ nav>div>a:hover {
 
 /* diff learning levels' buttons starts here */
 #beginner{
-	align-items: flex-start;
-    margin: 55px 50px 0px 250px;      
 	border-radius: 50%;
+	margin-left: 25%;
 }
 
 #intermediate{
-	align-items: flex-end;
-    margin: -80px 50px 0px 900px;      
-	border-radius: 50%;
+	margin-right: 25%;    
+	border-radius: 50%; 
 }
 
 #advanced{
@@ -167,9 +169,8 @@ input[type=submit] {
 
 /*intermediateHTML css starts here*/
 .imgIntermediate img{
-	display: flex;
 	float: right;
 	width: 500px;
-	margin: 0px -50px 0px 35px;
+	margin: 0px 250px 0px 150px;
 }
 
