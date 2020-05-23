@@ -96,6 +96,10 @@ nav>div>a:hover {
     margin: 50px 50px 0px 550px;      
 	border-radius: 8px;
 }
+mark{
+	color: #16161c;
+	background-color: #dfdfe6;
+}
 
 /*javascriptHTML css starts here*/
 
@@ -104,6 +108,7 @@ p{
 	font-weight: bold;
 	margin: 55px;
 	line-height: 50px;
+	font-size: 20px;
 }
 li{
 	font-family: 'Source Sans Pro', sans-serif;
@@ -173,7 +178,7 @@ input[type=submit] {
 
 pre{
 	display: inline-block;
-	border: 4px solid red;
+	border: 4px solid lightslategray;
 }
 
 /*beginnerHTML css ends here*/
